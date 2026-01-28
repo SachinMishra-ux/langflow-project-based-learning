@@ -1,0 +1,9 @@
+[project]
+name = "langflow-project-based-learning"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "langflow>=1.7.3",
+]
