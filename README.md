@@ -26,6 +26,19 @@ The core of this repository is the `All_Flows` folder, which contains the follow
 - **Key Concepts:** Tool calling, Web Search integration, Multi-function agents.
 ![Simple Agent with Web Search & Calculator](Assets/simple_agent_with_web_search_calculator_tool.png)
 
+### 4. RFP Report Generation Multi-Agent Flow
+**File:** `RFP Report Generation Multi Agent Flow.json`
+- **Description:** An advanced multi-agent system designed to process Request for Proposal (RFP) or Request for Quote (RFQ) documents. This flow reads a document, utilizes a smart router to direct tasks to specialized agents (e.g., for technical vs. commercial analysis), and compiles a response report.
+- **Key Concepts:** Multi-Agent Architecture, Smart Routing, Document Ingestion (PDF/DOCX), Automated Reporting.
+- **Sample Data:** You can use `Modified_RFP_Electric_Coolant_Pump.doc` located in the `All_Flows` directory to test this flow.
+
+**Visualizations:**
+> *With Smart Router:*
+> ![RFP Flow with Smart Router](Assets/RFQ_multiagent_flow_smart_router.png)
+
+> *Without Smart Router (Alternative View):*
+> ![RFP Flow without Smart Router](Assets/RFQ_multiagent_flow_without_smart_router.png)
+
 ## 🛠️ Getting Started
 
 ### Prerequisites
